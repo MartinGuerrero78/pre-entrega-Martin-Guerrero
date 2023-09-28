@@ -8,23 +8,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon/anchor-solid.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Náuticos Guerrero</title>
 </head>
 <body>
-    <header class="nosotros-header">
-        <h1 class="titulo">Náuticos Guerrero</h1>
-        <div class="nav-menu-two">
-            <input type="checkbox" id="check">    
-            <label for="check" class="checkbtn">
-                <i class="menu-icon"><img src="favicon/Hamburger_icon_white.svg" alt=""></i>
-            </label>
-            <ul>
-                <li><a href="index.html" class="li-header">Inicio</a></li>
-                <li><a href="sobre-nosotros.html" class="li-header">Nosotros</a></li>
-                <li><a href="trabajos.html" class="li-header">Trabajos</a></li>
-                <li><a href="contacto.html" class="li-header">Contacto</a></li>
-                <li><a href="#" class="li-header">Preguntas Frecuentes</a></li>
-            </ul>
+    <header class="header-nav">
+        <nav class="navbar navbar-expand-lg bg-body-transparent">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <h1 class="nauticos" href="#">Nauticos Guerrero</h1>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre-nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="trabajos.html">Trabajos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Preguntas Frecuentes</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
     </header>
     <main class="body-question">
         <div class="container-question">
@@ -74,5 +89,6 @@
     <footer class="other-hello">
     <p id="p-footer">Copyright © 2023 - All right reserved - Náuticos Guerrero</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

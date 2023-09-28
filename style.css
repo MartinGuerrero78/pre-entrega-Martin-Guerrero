@@ -25,10 +25,17 @@ html, body{
     backdrop-filter: opacity(1px);
 }
 
-header{
-    background-color: transparent;
+.collapse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
 }
 
+.nauticos{
+    font-size: 2rem;
+    padding-left: 100px;
+}
 
 h1{
     color: #101A31;
@@ -155,13 +162,6 @@ h2{
     margin-left: 50px;
     margin-right: 100px;
     font-weight: 600;
-}
-
-.nosotros-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #101A31;
 }
 
 /* Acá empieza la sección trabajos */
@@ -306,93 +306,10 @@ h5{
     color: #fff;
 }
 
-/*@media (max-width: 768px) {
-    .nosotros-header nav ul{
-        flex-direction: column;
-    }
-}*/
-
-/* media query */
-
-
-/* @media (max-width:768px){
-    .checkbtn{
-        display: block;
-    }
-    .menu-icon{
-        display: block;
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        cursor: pointer;
-    }
-    .nav-menu ul{
-        display: block;
-        position: fixed;
-        top:70px;
-        left:-100%;
-        background: #fff;
-        width: 100%;
-        height: 100vh;
-        right: 0;
-    }
-    .nav-menu ul li{
-        padding: 2rem;
+@media (max-width: 768px) {
+    .collapse{
         display: flex;
-        justify-content: center;
-        margin: 0;
-    }
-    .nav-menu ul li:last-child{
-        background: none;
-        padding: 1rem;
-    }
-    #check:checked ~ ul{
-        left: 0;
-        transition: all .25s;
-    }
-} */
-
-/* @media (max-width: 768px) {
-    .prueba2{
-        display: block;
+        justify-content: start;
     }
 }
 
-/* media query menú de las secciones despues de inicio */
-
-/* @media (max-width:768px){
-    .checkbtn{
-        display: block;
-    }
-    .menu-icon{
-        display: block;
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        cursor: pointer;
-    }
-    .nav-menu-two ul{
-        display: block;
-        position: fixed;
-        top:70px;
-        left:-100%;
-        background: #101A31;
-        width: 100%;
-        height: 100vh;
-        right: 0;
-    }
-    .nav-menu-two ul li{
-        padding: 2rem;
-        display: flex;
-        justify-content: center;
-        margin: 0;
-    }
-    .nav-menu-two ul li:last-child{
-        background: none;
-        padding: 1rem;
-    }
-    #check:checked ~ ul{
-        left: 0;
-        transition: all .25s;
-    }
-}  */
